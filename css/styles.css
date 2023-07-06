@@ -1,11 +1,15 @@
-.body {
+html,
+body {
+  margin: 0;
+  height: 100%;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   background: #fff;
-  color: var(--navyblue, #2e2f42);
+  width: 1440px;
 }
+
 .logo {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -13,6 +17,8 @@
   line-height: 21px;
   letter-spacing: 0.54px;
   text-decoration: none;
+  text-transform: uppercase;
+  margin: auto;
 }
 .logo-span {
   color: #4d5ae5;
@@ -37,6 +43,10 @@ ul {
   letter-spacing: 0.32px;
   text-decoration: none;
 }
+.address {
+  margin: auto;
+  display: inline-flex;
+}
 .header-address-link {
   color: #434455;
   font-family: Roboto;
@@ -50,6 +60,18 @@ ul {
 .button-filter {
   border-radius: 4px;
   background: #404bbf;
+  margin: auto;
+  display: flex;
+}
+.button-filter span {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  margin: auto;
 }
 h3 {
   color: #2e2f42;
@@ -71,6 +93,8 @@ p {
 }
 .footer {
   background: #2e2f42;
+  margin: auto;
+  display: flex;
 }
 .footer-p {
   color: #f4f4fd;
@@ -101,4 +125,54 @@ p {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+/* Index */
+.nav-header {
+  margin: auto;
+  display: inline-flex;
+}
+.nav-header ul {
+  margin: auto;
+  display: inline-flex;
+}
+.section1 {
+  background: #2e2f42;
+}
+.section1-titel {
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 56px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+  width: 496px;
+  margin: auto;
+}
+.section1-button {
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 169px;
+  height: 56px;
+  margin: auto;
+}
+.section1-button span {
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.section2 ul {
+  margin: auto;
+  display: inline-flex;
+}
+.section2 li {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
 }
