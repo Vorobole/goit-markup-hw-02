@@ -2,13 +2,19 @@ body {
   height: 100%;
   font-family: "Roboto", sans-serif;
   background: #fff;
+  width: 1440px;
 }
 /* header */
 .header {
   display: flex;
+  height: 72px;
 }
 ul {
   list-style-type: none;
+}
+.header-logo {
+  padding-left: 156px;
+  padding-top: 26px;
 }
 .logo {
   color: #2e2f42;
@@ -19,8 +25,6 @@ ul {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-decoration: none;
-  margin-top: 16px;
-  margin-right: 76px;
 }
 .logo-span {
   color: #4d5ae5;
@@ -34,13 +38,13 @@ ul {
 }
 .nav-header {
   display: flex;
+  margin-left: 72px;
 }
 .nav-header-ul {
   display: flex;
 }
 .nav-header-link {
   text-decoration: none;
-  margin-right: 40px;
 }
 .nav-header-ul .nav-header-link {
   color: var(--navyblue, #2e2f42);
@@ -124,7 +128,6 @@ ul {
   line-height: 60px;
   letter-spacing: 1.12px;
   width: 496px;
-  height: 120px;
   padding-top: 188px;
   margin: auto;
 }
@@ -165,19 +168,30 @@ ul {
   cursor: pointer;
 }
 
-.section2 ul {
-  margin: auto;
+/* index-section2 */
+.section2-title {
   text-align: center;
+  margin-top: 80px;
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
-.section2 li {
+.section2-ul {
+  display: flex;
+  padding-left: 156px;
+}
+.section2-li {
   width: 264px;
-  flex-direction: column;
-  display: inline-block;
-  margin: 20px;
-  padding: auto;
+  height: 104px;
+  margin-right: 24px;
   text-align: left;
 }
-.section2-titel {
+.section2-li-titel {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
@@ -186,7 +200,73 @@ ul {
   line-height: 24px;
   letter-spacing: 0.4px;
 }
+/* index-section3 */
+.section3-title {
+  text-align: center;
+  margin-top: 120px;
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.section2-li-p {
+  color: var(--slate, #434455);
+}
+/* index-section3 */
+.section3-ul {
+  display: flex;
+  padding-left: 156px;
+}
+.section3-li-img {
+  padding: auto;
+  margin-right: 24px;
+}
 
+/* index-section4 */
+.section4 {
+  background: var(--cloud, #f4f4fd);
+  height: 732px;
+  margin-top: 120px;
+}
+.section4-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  padding-top: 120px;
+}
+.section4-ul {
+  display: flex;
+  padding-left: 156px;
+  margin-top: 72px;
+}
+.section4-li-img {
+  padding: auto;
+  margin-right: 24px;
+}
+.section4-ul h3 {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.section4-ul p {
+  color: var(--slate, #434455);
+  text-align: center;
+}
 /* portfolio */
 .button {
   display: flex;
@@ -228,7 +308,6 @@ ul {
   letter-spacing: 0.64px;
   cursor: pointer;
 }
-
 h3 {
   color: #2e2f42;
   font-family: Roboto;
@@ -249,20 +328,14 @@ p {
 }
 .footer {
   background: #2e2f42;
-  margin: auto;
-  display: flex;
+  height: 312px;
 }
-.footer-p {
-  color: #f4f4fd;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+.footer-logo-item {
+  padding-left: 156px;
+  padding-top: 101px;
 }
 .footer-logo {
-  color: #4d5ae5;
+  color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -273,7 +346,7 @@ p {
   text-decoration: none;
 }
 .footer-logo-span {
-  color: #f4f4fd;
+  color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -281,4 +354,11 @@ p {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.footer-p {
+  color: #f4f4fd;
+  width: 264px;
+  height: 72px;
+  padding-left: 156px;
+  padding-top: 18px;
 }
