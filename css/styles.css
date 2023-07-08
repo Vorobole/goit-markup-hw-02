@@ -38,13 +38,15 @@ ul {
 }
 .nav-header {
   display: flex;
-  margin-left: 72px;
 }
 .nav-header-ul {
   display: flex;
+  margin-top: 26px;
+  margin-left: 76px;
 }
 .nav-header-link {
   text-decoration: none;
+  margin-right: 40px;
 }
 .nav-header-ul .nav-header-link {
   color: var(--navyblue, #2e2f42);
@@ -69,6 +71,8 @@ ul {
 
 .address-ul {
   display: flex;
+  margin-top: 26px;
+  margin-left: 332px;
 }
 .address-ul-link {
   text-decoration: none;
@@ -268,11 +272,15 @@ ul {
   text-align: center;
 }
 /* portfolio */
-.button {
+.button-filter {
+  padding-left: 427px;
+  padding-top: 96px;
+}
+.button-filter-ul {
   display: flex;
   text-decoration: none;
 }
-.button-filter {
+.button-filter-li {
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--cloud, #f4f4fd);
@@ -291,7 +299,7 @@ ul {
   cursor: pointer;
   margin-right: 24px;
 }
-.button-filter:hover {
+.button-filter-li:hover {
   border-radius: 4px;
   background: var(--ocean, #404bbf);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
@@ -326,6 +334,8 @@ p {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+
+/* footer */
 .footer {
   background: #2e2f42;
   height: 312px;
