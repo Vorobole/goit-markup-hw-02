@@ -20,7 +20,7 @@ ul {
 }
 .logo {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -39,7 +39,7 @@ ul {
   list-style: none;
 }
 
-.studio {
+.nav {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 16px;
@@ -48,10 +48,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.studio .link {
+.nav .link {
   text-decoration: none;
 }
-.studio:hover {
+.link:hover {
   color: var(--ocean, #404bbf);
   font-family: Roboto;
   font-size: 16px;
@@ -60,7 +60,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.studio:active {
+.link:focus {
   color: var(--ocean, #404bbf);
   font-family: Roboto;
   font-size: 16px;
@@ -72,7 +72,7 @@ ul {
 .address {
   font-style: normal;
 }
-.address-list-link {
+.address .list {
   text-decoration: none;
 }
 .address-list-link {
@@ -81,17 +81,17 @@ ul {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.address-list-link:active {
+.address-list-link:hover {
   color: var(--ocean, #404bbf);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .address-list-link:focus {
   color: var(--ocean, #404bbf);
@@ -99,8 +99,8 @@ ul {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-address-link {
