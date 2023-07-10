@@ -196,7 +196,7 @@ ul {
 .team {
   background: var(--cloud, #f4f4fd);
 }
-.team .list {
+.team-li {
   background-color: #ffffff;
 }
 .team-title {
@@ -227,32 +227,45 @@ ul {
 }
 /* portfolio */
 
-.button-filter-ul {
-  text-decoration: none;
+.direction .list {
+  list-style: none;
 }
-.button-filter-li {
+.direction-button {
   background: var(--cloud, #f4f4fd);
   color: var(--iris, #4d5ae5);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button-filter-li:hover {
+.direction-button:hover {
   background: var(--ocean, #404bbf);
   color: var(--white, #fff);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
-
+.direction-button:focus {
+  background: var(--ocean, #404bbf);
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.direction-list .link {
+  text-decoration: none;
+}
 .direction-list-li {
   background: var(--white);
 }
