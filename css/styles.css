@@ -9,7 +9,6 @@
   --cornflower: #e7e9fc;
 }
 body {
-  height: 100%;
   font-family: "Roboto", sans-serif;
   background: var(--white);
   color: var(--slate);
@@ -19,52 +18,68 @@ body {
 ul {
   list-style-type: none;
 }
-.logo {
-  color: var(--navyblue, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.logo-span {
+.header .link {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header .link .span {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.nav-header-link {
-  text-decoration: none;
+.header .list {
+  list-style: none;
 }
-.nav-header-ul .nav-header-link {
+
+.studio {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.nav-header-ul .nav-header-link:active {
+.studio .link {
+  text-decoration: none;
+}
+.studio:hover {
   color: var(--ocean, #404bbf);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.address-ul-link {
+.studio:active {
+  color: var(--ocean, #404bbf);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address {
+  font-style: normal;
+}
+.address-list-link {
   text-decoration: none;
 }
-.address-ul .address-ul-link {
+.address-list-link {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
@@ -73,7 +88,7 @@ ul {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.address-ul .address-ul-link:active {
+.address-list-link:active {
   color: var(--ocean, #404bbf);
   font-family: Roboto;
   font-size: 16px;
@@ -82,7 +97,7 @@ ul {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.address-ul .address-ul-link:focus {
+.address-list-link:focus {
   color: var(--ocean, #404bbf);
   font-family: Roboto;
   font-size: 16px;
