@@ -237,7 +237,7 @@ ul {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -248,7 +248,7 @@ ul {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -259,33 +259,32 @@ ul {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.direction-list .link {
-  text-decoration: none;
+.direction .list {
+  list-style: none;
 }
-.direction-list-li {
+.derection .list .link {
+  text-decoration: none;
   background: var(--white);
 }
-.direction-list-li h3 {
-  color: var(--navyblue);
+.direction-li-title {
+  color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-.direction-list-li p {
-  color: var(--slate);
-  font-family: Roboto;
+.direction-li-p {
+  color: var(--slate, #434455);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* footer */
 .footer {
